@@ -1,0 +1,6 @@
+deps:
+  - apt-get update
+  - apt-get install -y gnucobol
+  - cobc -free -x -o helloworld-exe helloworld
+daemons: []
+run: ./helloworld-exe
