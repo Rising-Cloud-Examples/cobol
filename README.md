@@ -1,5 +1,7 @@
 # cobol-task
-This guide will walk you through the steps needed to build and run a COBOL Hello World! app on Rising Cloud using an Ubuntu 20.04 base image.  Note that if you want to build this on Ubuntu 22.04 some of the dependencies will be different.  
+This guide will walk you through the steps needed to build and run a COBOL Hello World! app on Rising Cloud using an Ubuntu 20.04 base image.  Note that if you want to build this on Ubuntu 22.04 some of the dependencies will be different. 
+
+For this example, we will use Ramesh Natarajan's example [here](https://www.thegeekstuff.com/2010/02/cobol-hello-world-example-how-to-write-compile-and-execute-cobol-program-on-linux-os/), and run as a Rising Cloud Task.
 
 # 1. Install the Rising Cloud Command Line Interface (CLI)
 In order to run the Rising Cloud commands in this guide, you will need to [install](https://risingcloud.com/docs/install) the Rising Cloud Command Line Interface. This program provides you with the utilities to setup your Rising Cloud Task or Web Service, upload your application to Rising Cloud, check the status of your app, and more.
